@@ -253,7 +253,12 @@ Single Movie
   margin: 4rem auto;
   display: grid;
   gap: 2rem;
+  /* border: 1px #000 solid; */
 }
+.single-movie-top {
+  border-bottom: #b1aeae solid 1px;
+}
+
 .single-movie img {
   width: 100%;
   display: block;
@@ -302,6 +307,12 @@ Footer
   border-top: #b1aeae solid 1px;
 }
 
-.footer__link {
+.footer__left {
   text-decoration: none;
+}
+
+.footer__right {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
 }

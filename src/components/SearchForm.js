@@ -9,7 +9,7 @@ const SearchForm = () => {
       className="search-form"
       onSubmit={(e) => e.preventDefault()}
     >
-      <h2>Movie Library</h2>
+      <h2>movie library.</h2>
 
       <input
         type="text"
