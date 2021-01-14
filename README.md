@@ -1,6 +1,6 @@
 # Movie Library (using React).
 
-(see this project live here: dhfjhdsabfjgsadf.ocm )
+To see this project live here: dhfjhdsabfjgsadf.ocm
 
 ## Technologies used:
 
@@ -12,7 +12,7 @@ Fetching movie information from https://www.omdbapi.com/, this front-end project
 
 ## Local Installation:
 
-After clone repo, change your command line directory to the project root folder and run:
+After the repo is cloned, change your command line directory to the project root folder and run:
 
 - npm install && npm start
 
