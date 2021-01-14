@@ -1,5 +1,7 @@
 # Movie Library (using React).
 
+(see this project live here: dhfjhdsabfjgsadf.ocm )
+
 ## Technologies used:
 
 - React.js (context API, )
@@ -8,7 +10,7 @@
 
 Fetching movie information from https://www.omdbapi.com/, this front-end projects displays movies that are searched by the visiting user.
 
-## Dependencies:
+## Local Installation:
 
 After clone repo, change your command line directory to the project root folder and run:
 
