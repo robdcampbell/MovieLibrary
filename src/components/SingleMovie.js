@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { API_ENDPOINT } from "./context";
-import useFetch from "./useFetch";
+import { API_ENDPOINT } from "../context";
+import useFetch from "../useFetch";
 
 const SingleMovie = () => {
   const { id } = useParams();
@@ -14,7 +14,7 @@ const SingleMovie = () => {
     return (
       <div className="page-error">
         <h1>{error.msg}</h1>
-        <Link to="/" className="btm">
+        <Link to="/" className="btn">
           Back to Movies
         </Link>
       </div>

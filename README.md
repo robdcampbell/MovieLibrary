@@ -16,4 +16,5 @@ After the repo is cloned, change your command line directory to the project root
 
 - npm install && npm start
 
-- to run this project on your own, you'll need to generate an API key and store it in a .env file within the "src" directory.
+- to run this project on your own, you'll need to generate an API key from here: https://www.omdbapi.com/apikey.aspx
+- store it in a .env file within the "src" directory.

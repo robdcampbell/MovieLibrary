@@ -6,7 +6,7 @@ console.log(API_ENDPOINT);
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
-  const [query, setQuery] = useState("batman");
+  const [query, setQuery] = useState("star wars");
 
   const { isLoading, error, data: movies } = useFetch(`&s=${query}`);
   return (
