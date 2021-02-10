@@ -204,10 +204,19 @@ Movies
   padding-bottom: 5rem;
   padding-top: 3rem;
 }
+
 .movie {
   /* position: relative;
   overflow: hidden; */
   border-bottom: #c0c0c0 1px solid;
+}
+@media screen and (max-width: 612px) {
+  .movie__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .movie img {
   border-radius: 0.5rem;

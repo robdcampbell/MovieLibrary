@@ -19,7 +19,7 @@ const Movies = () => {
         console.log(poster);
         return (
           <Link key={id} to={`/movies/${id}`} className="movie">
-            <article className="">
+            <article className="movie__article">
               {/*  */}
               <img src={poster === "N/A" ? notFound : poster} alt={title} />
               <div className="movie-info">
