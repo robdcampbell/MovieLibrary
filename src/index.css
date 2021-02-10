@@ -314,5 +314,17 @@ Footer
 .footer__right {
   text-decoration: none;
   display: flex;
+  flex-direction: row;
   align-items: flex-end;
+}
+
+.footer__right > a {
+  text-decoration: none;
+  color: #292929;
+  margin-left: 1rem;
+}
+.footer__right > a:hover {
+  text-decoration: none;
+  color: #c0c0c0;
+  margin-left: 1rem;
 }

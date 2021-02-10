@@ -6,24 +6,14 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__left">
         <h4>Movie Library : React.js</h4>
-        <p>
-          Other projects:{" "}
-          <a href="https://google.com" target="_blank">
-            (link)
-          </a>
-        </p>
       </div>
 
-      <div className="footer_right">
-        <p>
-          View project code:{" "}
-          <a href="https://google.com" target="_blank">
-            {" "}
-            Source Code{" "}
-          </a>
-        </p>
+      <div className="footer__right">
+        <a href="https://github.com/robdcampbell/movieLibrary" target="_blank">
+          View project code.
+        </a>
 
-        <a href="https://google.com" target="_blank">
+        <a href="https://robcampbelldev.com" target="_blank">
           rob campbell
         </a>
       </div>
