@@ -149,6 +149,22 @@ Search
   border-bottom: #b1aeae solid 1px;
 }
 
+.form__control {
+  display: flex;
+  align-items: baseline;
+  padding: 0;
+  margin: 0;
+}
+.form__control > button {
+  height: fit-content;
+}
+@media screen and (max-width: 600px) {
+  .form__control {
+    display: grid;
+    align-items: 1fr 1fr;
+  }
+}
+
 .form-input {
   width: 100%;
   border: transparent;
@@ -166,6 +182,13 @@ Search
   text-transform: capitalize;
   padding-top: 0.5rem;
   letter-spacing: var(--spacing);
+}
+button {
+  background: none;
+  padding: 1rem;
+  outline: none;
+  border: #c0c0c0 solid 1px;
+  border-radius: 0.5rem;
 }
 /*
 =============== 
@@ -355,4 +378,23 @@ Footer
   text-decoration: none;
   color: #c0c0c0;
   margin-left: 1rem;
+}
+@media screen and (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem 0;
+    margin: 0;
+    margin-left: 1rem;
+  }
+  .footer__right {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer__right > a {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+  }
 }
