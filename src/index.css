@@ -65,7 +65,7 @@ body {
   background: rgb(2, 1, 25);
   background: linear-gradient(
     /* 90deg, */ rgb(12, 37, 59) 0%,
-    rgba(15, 15, 66, 1) 30%,
+    rgb(42, 42, 75) 30%,
     rgba(2, 1, 25, 1) 100%
   );
   color: var(--clr-grey-10);
