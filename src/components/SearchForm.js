@@ -6,22 +6,21 @@ const SearchForm = () => {
 
   return (
     <form className="search-form" onSubmit={(e) => e.preventDefault()}>
-      <h2>movie library.</h2>
+      <h1>movie library.</h1>
       <div className="form__control">
         <input
           type="text"
           className="form-input"
           ref={searchTerm}
+          placeholder="Search for a movie..."
           // value={query}
-          onChange={(e) => {
-            // setQuery(e.target.value);
-          }}
+          // onChange={(e) => setQuery(e.target.value)}
           onSubmit={(e) => {
             return setQuery(searchTerm.current.value);
           }}
         />
         <button
-          type="button"
+          type="submit"
           onClick={(e) => {
             return setQuery(searchTerm.current.value);
           }}
