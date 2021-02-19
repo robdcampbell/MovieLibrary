@@ -1,10 +1,10 @@
 # Movie Library (using React).
 
-To see this project live here: dhfjhdsabfjgsadf.ocm
+To see this project live here: [Movie Library](https://react-movielibrary-rdc.netlify.app/)
 
 ## Technologies used:
 
-- React.js (context API, )
+- React.js (context API)
 
 ## Project Summary:
 
